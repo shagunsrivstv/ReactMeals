@@ -1,0 +1,148 @@
+.ExploreMenu{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+   
+}
+.ExploreMenu h2{
+    
+    font-size: 40px;
+    color: #5a644b ;
+    padding: 30px 0px 30px 0px;
+}
+.ExploreMenu p{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #5a644b ;
+    
+   
+}
+.menu-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+    padding: 30px 0px 30px 0px;
+    text-align: center;
+    margin: 20px 0px;
+    overflow-x: scroll;
+}
+.menu-list::-webkit-scrollbar{
+    display: none;
+}
+.list-item img{
+    width: 150px;
+    
+}
+.list-item p{
+    font-size: larger;
+    justify-content: center;
+    text-align: center;
+   
+}
+.ExploreMenu hr{
+    margin: 10px 0px;
+    height: 4px;
+    background-color: rgb(203, 203, 203);
+    border: none;
+}
+.list-item .active{
+    padding: 2px;
+    border: 5px solid #78924e;
+    border-radius: 6rem;
+   
+}
+.list-item .active-text{
+    color:#78924e ;
+}
+@media only screen and (max-width: 768px) {
+    .ExploreMenu {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  
+    .ExploreMenu h2 {
+      font-size: 30px;
+      padding: 20px 0px 20px 0px;
+    }
+  
+    .ExploreMenu p {
+      font-size: 18px;
+    }
+  
+    .menu-list {
+      gap: 20px;
+      padding: 20px 0px 20px 0px;
+      margin: 10px 0px;
+    }
+  
+    .list-item img {
+      width: 120px;
+    }
+  
+    .list-item p {
+      font-size: medium;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .ExploreMenu {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  
+    .ExploreMenu h2 {
+      font-size: 25px;
+      padding: 15px 0px 15px 0px;
+    }
+  
+    .ExploreMenu p {
+      font-size: 16px;
+    }
+  
+    .menu-list {
+      gap: 15px;
+      padding: 15px 0px 15px 0px;
+      margin: 5px 0px;
+    }
+  
+    .list-item img {
+      width: 100px;
+    }
+  
+    .list-item p {
+      font-size: small;
+    }
+  }
+  
+  /* Media Query for iPhone 14 Pro Max (412px width) */
+  @media only screen and (max-width: 412px) {
+    .ExploreMenu {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  
+    .ExploreMenu h2 {
+      font-size: 25px;
+      padding: 15px 0px 15px 0px;
+    }
+  
+    .ExploreMenu p {
+      font-size: 16px;
+    }
+  
+    .menu-list {
+      gap: 15px;
+      padding: 15px 0px 15px 0px;
+      margin: 5px 0px;
+    }
+  
+    .list-item img {
+      width: 100px;
+    }
+  
+    .list-item p {
+      font-size: small;
+    }
+  }

@@ -1,0 +1,45 @@
+/* Center the h2 text */
+.AppDownload h2 {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 130px;
+}
+
+/* Center the container and the image inside it */
+.img-cont {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+/* Ensure image scales appropriately */
+.img-cont img {
+  width: 500px;
+  cursor: pointer;
+}
+@media only screen and (max-width: 768px) {
+  .AppDownload h2 {
+    font-size: 30px; 
+    margin-top: 100px; 
+  }
+
+  .img-cont {
+    margin-top: 10px;
+  }
+}
+
+/* For mobile phones */
+@media only screen and (max-width: 480px) {
+  .AppDownload h2 {
+    font-size: 24px;
+    margin-top: 80px; 
+  }
+
+  .img-cont {
+    margin-top: 5px; 
+  }
+
+  .img-cont img {
+    max-width: 80%; 
+  }
+}

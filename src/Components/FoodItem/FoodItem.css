@@ -1,0 +1,215 @@
+.image-img {
+  width: 100%;
+  border-radius:2rem;
+}
+.food-items {
+  border-radius: 2rem;
+  box-shadow: 15px 15px 35px rgb(163, 157, 157);
+  height: 360px;
+  
+}
+.about {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  width: 100%;
+  justify-content: baseline;
+
+
+}
+.item-name-list {
+  margin-top: -40px;
+  font-weight: bold;
+  color: black;
+  font-size: larger;
+}
+.about hr {
+  color: 2px sienna solid;
+}
+.price {
+  font-weight: bold;
+  color: #5d7c1d;
+  font-size: larger;
+
+}
+.description {
+  font-size: small;
+  color: rgb(53, 52, 52);
+}
+.counter {
+  position: relative;
+  margin-left: 200px;
+  top: -55px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  border: 1px solid white;
+  background-color: white;
+  width: 80px;
+  height: 35px;
+  border-radius: 3rem;
+  align-items: center;
+  justify-content: center;
+  padding: 1px;
+  font-size: 15px;
+}
+.operator {
+  width: 25px;
+  padding: 1px;
+  cursor: pointer;
+}
+.add {
+  position: relative;
+  margin-left: 250px;
+  top: -55px;
+  border: 2px solid rgb(160, 157, 157);
+  background-color: white;
+  width: 30px;
+  border-radius: 3rem;
+  align-items: center;
+  justify-content: center;
+  padding: 1px;
+  font-size: 15px;
+  cursor: pointer;
+}
+@media only screen and (max-width: 768px) {
+  .food-items {
+    height: 300px;
+  }
+  .add {
+    margin-left: 100px;
+    top: -35px;
+  }
+  .counter{
+    margin-left: 45px;
+    
+  }
+
+}
+@media only screen and (max-width: 768px) {
+  .food-items {
+    height: 300px;
+  }
+
+  .add {
+    margin-left: 100px;
+    top: -35px;
+  }
+
+  .counter {
+    margin-left: 45px;
+  }
+}
+
+/* Small tablets and large phones */
+@media only screen and (max-width: 600px) {
+  .food-items {
+    height: 280px;
+  }
+
+  .add {
+    margin-left: 80px;
+    top: -30px;
+  }
+
+  .counter {
+    margin-left: 40px;
+    top: -40px;
+  }
+
+  .item-name-list {
+    font-size: medium;
+  }
+
+  .price {
+    font-size: medium;
+  }
+}
+
+/* Mobile phones */
+@media only screen and (max-width: 480px) {
+  .food-items {
+    height: 250px;
+  }
+
+  .add {
+    margin-left: 80px;
+    top: -25px;
+  }
+
+  .counter {
+    margin-left: 30px;
+    top: -35px;
+  }
+
+  .item-name-list {
+    font-size: small;
+  }
+
+  .price {
+    font-size: small;
+  }
+
+  .description {
+    font-size: x-small;
+  }
+}
+
+/* Small mobile phones */
+@media only screen and (max-width: 320px) {
+  .food-items {
+    height: 220px;
+  }
+
+  .add {
+    margin-left: 40px;
+    top: -20px;
+  }
+
+  .counter {
+    margin-left: 20px;
+    top: -30px;
+  }
+
+  .item-name-list {
+    font-size: x-small;
+  }
+
+  .price {
+    font-size: x-small;
+  }
+
+  .description {
+    font-size: xx-small;
+  }
+}
+
+/* Specific media query for iPhone 14 Pro Max */
+@media only screen and (max-width: 430px) and (min-height: 932px) {
+  .food-items {
+    height: 270px;
+  }
+
+  .add {
+    margin-left: 50px;
+    top: -25px;
+  }
+
+  .counter {
+    margin-left: 25px;
+    top: -35px;
+  }
+
+  .item-name-list {
+    font-size: medium;
+  }
+
+  .price {
+    font-size: medium;
+  }
+
+  .description {
+    font-size: small;
+  }
+}

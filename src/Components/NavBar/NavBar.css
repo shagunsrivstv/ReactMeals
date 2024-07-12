@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Rowdies:wght@300;400;700&display=swap');
+.NavBar {
+  padding: 20px 0px;
+  display: flex;
+  align-items: center;
+  background-color: #414833;
+  
+}
+.logo {
+  color: white;
+  font-family: 'Rowdies';
+  white-space: nowrap;
+  margin-left: 40px;
+  font-size: 40px;
+}
+.delMethod {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.cart img {
+  width: 50px;
+  border-radius: 2rem;
+  margin-left: -14px;
+}
+.signin img {
+  width: 30px;
+  border-radius: 2rem;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.cart {
+  display: flex;
+  border: 2px solid white;
+  width: 170px;
+  background-color: white;
+  border-radius: 3rem;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  font-weight: bolder;
+  font-size: small;
+  cursor: pointer;
+  margin-left: auto;
+}
+.signin {
+  display: flex;
+  font-size: 1cap;
+  width: 150px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  padding-right: 9px;
+  cursor: pointer;
+  font-size: small;
+  font-weight: bold;
+  white-space: nowrap;
+  border: 2px solid beige ;
+  border-radius: 2rem;
+ }
+input[type="radio"] {
+  display: none;
+}
+
+.custom-radio {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  font-size: 16px;
+  user-select: none;
+  padding-left: 20px;
+  margin-right: 10px;
+}
+
+/* Custom radio button indicator */
+.custom-radio::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 7px;
+  height: 7px;
+  border: 2px solid #ccc;
+  border-radius: 2rem;
+  background-color: white;
+  padding: 2px;
+}
+
+/* Custom radio button checked state */
+input[type="radio"]:checked + .custom-radio::before {
+  border-color: #66bb6a;
+  background-color: #66bb6a;
+}
+
+/* Custom radio button checked indicator */
+input[type="radio"]:checked + .custom-radio::after {
+  content: "";
+  position: absolute;
+  left: 4px;
+  top: 4px;
+  width: 7px;
+  height: 7px;
+  border-radius: 4rem;
+  background-color: white;
+}
+.rightsection {
+  display: flex;
+  flex-direction: row;
+  margin-left: 320px;
+  gap: 80px;
+  justify-content: baseline;
+}
+
+
+
+@media (max-width: 1200px) {
+  .logo {
+    margin-left: 0;
+  }
+  .rightsection {
+    padding-left: 10px;
+    gap: 40px;
+  }
+  .delMethod {
+    font-size: 5px;
+  }
+}
+/* Media Query for iPhone 14 Pro Max (412px width) */
+@media (max-width: 412px) {
+  .NavBar {
+    padding: 10px 0px;
+    font-size: smaller;
+  }
+
+  .logo {
+    font-size: 2px;
+    margin-left: 2px;
+    font-size: 30px;
+  }
+
+  .rightsection {
+    margin-left: 10px;
+    gap: 10px;
+  }
+
+  .cart {
+    width: auto;
+    font-size: smaller;
+    padding: 5px;
+  }
+
+
+
+  .delMethod {
+    display: none;
+  }
+
+  .custom-radio {
+    font-size: smaller;
+    padding-left: 10px;
+  }
+  .cart {
+    display: flex;
+    border: 2px solid white;
+    width: 130px;
+    background-color: white;
+    border-radius: 3rem;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    font-weight: bolder;
+    font-size: small;
+    cursor: pointer;
+    margin-left: auto;
+    margin-top: 5px;
+  }
+
+    
+    .signin {
+      display: flex;
+      width: 150px;
+      color: transparent;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      border: none;
+      margin-left:  -30px;
+     }
+}
+@media (max-width: 430px) {
+  .NavBar {
+    padding: 10px 0px;
+  }
+
+  .logo {
+    font-size: 2px;
+    margin-left: 2px;
+    font-size: 30px;
+  }
+
+  .rightsection {
+    margin-left: 10px;
+    gap: 10px;
+  }
+
+  .cart {
+    width: auto;
+    font-size: smaller;
+    padding: 5px;
+  }
+
+  .signin {
+    width: auto;
+    font-size: smaller;
+    padding: 5px;
+  }
+
+  .delMethod {
+    font-size: smaller;
+  }
+
+  .custom-radio {
+    font-size: smaller;
+    padding-left: 10px;
+  }
+  .cart {
+    display: flex;
+    border: 2px solid white;
+    width: 130px;
+    background-color: white;
+    border-radius: 3rem;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    font-weight: bolder;
+    font-size: small;
+    cursor: pointer;
+    margin-left: auto;
+    margin-top: 5px;
+  }
+    .delMethod {
+      display: none; /* Hide delivery methods on screens less than 945px wide */
+    }
+    
+    .signin {
+      display: flex;
+      width: 150px;
+      color: transparent;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      border: none;
+      margin-left: -10px;
+     }
+  }
+

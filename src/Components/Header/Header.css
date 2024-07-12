@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Rowdies:wght@300;400;700&display=swap');
+.header {
+  margin: 30px auto ;
+  height: 30vw;
+  background-image: url('https://www.eatingwell.com/thmb/gXVrvwBSWP8pTbtA6gKlZe0cdxM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc()/Thai-Green-Curry-Soup-301-2000-20b2304ccb20438f9f5b1c35c05ae8d6.jpg');
+  background-position: left;
+  width: 95%;
+  background-size: cover;
+  color: white;
+  text-align: left;
+  font-size: large;
+  border-radius: 1rem;
+  padding-left: 40px;
+  padding-top: 80px;
+  text-shadow: 3px 5px 6px black;
+}
+
+.header h2{
+    font-size: 50px;
+}
+.header p{
+    font-size: 20px;
+}
+#view{
+    width: 140px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 2rem;
+    border: none;
+    margin-top: 40px;
+    cursor: pointer;
+    background-color: #414833;
+    color: white;
+    transition:background-color 0.1s ;
+    border: white solid 1px;
+
+    
+}
+#view:hover{
+    background-color: #161812;
+}
+/* Media Queries for Responsiveness */
+@media only screen and (max-width: 768px) {
+    .header {
+      height: 40vw;
+      padding-left: 20px;
+      padding-top: 60px;
+    }
+  
+    .header h2 {
+      font-size: 40px;
+    }
+  
+    .header p {
+      font-size: 18px;
+    }
+  
+    #view {
+      width: 120px;
+      height: 35px;
+      font-size: 14px;
+      margin-top: 30px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .header {
+      height: 50vw;
+      padding-left: 10px;
+      padding-top: 50px;
+    }
+  
+    .header h2 {
+      font-size: 19px;
+    }
+  
+    .header p {
+      font-size: 10px;
+    }
+  
+    #view {
+      width: 60px;
+      height: 30px;
+      font-size: 6px;
+      margin-top: 20px;
+    }
+  }
+  
+  /* Media Query for iPhone 14 Pro Max (412px width) */
+  @media only screen and (max-width: 412px) {
+    .header {
+      height: 50vw;
+      padding-left: 10px;
+      padding-top: 50px;
+    }
+  
+    .header h2 {
+      font-size: 15px;
+    }
+  
+    .header p {
+      font-size: 5px;
+    }
+  
+    #view {
+      width: 50px;
+      height: 20px;
+      font-size: 6px;
+      margin-top: 20px;
+    }
+  }
